@@ -53,7 +53,7 @@ set(FEATURE_AUTH_MODE "KEY")
 
 # 接入认证是否不使用TLS，证书方式必须选择使用TLS，密钥认证可选择不使用TLS
 # Whether access authentication uses TLS, certificate authentication must use TLS, key authentication can choose not to use TLS
-set(FEATURE_AUTH_WITH_NOTLS ON)
+set(FEATURE_AUTH_WITH_NOTLS OFF)
 
 # 是否打开 WEBSOCKET MQTT 功能
 # Whether to turn on Master Switch for the websocket-mqtt

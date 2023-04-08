@@ -1,6 +1,6 @@
 /* #undef AUTH_MODE_CERT */
 #define AUTH_MODE_KEY
-#define AUTH_WITH_NOTLS
+/* #undef AUTH_WITH_NOTLS */
 #define GATEWAY_ENABLED
 /* #undef COAP_COMM_ENABLED */
 #define OTA_MQTT_CHANNEL
@@ -18,3 +18,9 @@
 #define BROADCAST_ENABLED
 #define RRPC_ENABLED
 #define REMOTE_CONFIG_MQTT
+#define RESOURCE_USE_HTTPS
+#define REMOTE_LOGIN_WEBSOCKET_SSH
+#define WEBSOCKET_CLIENT
+/* #undef WEBSOCKET_MQTT */
+
+
